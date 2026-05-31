@@ -1,0 +1,117 @@
+<!-- Date : 01-june-2026 -->
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Warehouse Manager</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <h1 style="margin-top : 100px; margin-bottom :50px;  color : hsl(0, 0%, 100%);">Welcome to Warehouse Manager</h1>
+        
+        
+        <div id="login_box">
+            <h3 style="margin-top : 0px; margin-bottom : 30px;">Login to your virtual warehouse.</h3>
+
+            <label for="username" style="color : hsl(0, 0%, 0%);"><b>USERNAME</b></label>
+            <input type="text" id="username" placeholder="Enter your username." required><br>
+            
+            <label for="password" style="color : hwb(0 0% 100%);"><b>PASSWORD</b></label>
+            <input type="password" id="password" placeholder="Enter your password." required><br>
+
+            <button id="login">LOGIN</button><br>
+            <a href="#" id="reset_pass">Forgot Password?</a><br>
+
+            <P id="message" style="color:red; font-size : 20px;"></P>
+            <a href="index.html" style=" font-size : 20px;" id="allow"></a>
+
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
+
+
+
+<style>
+    #login_box{
+        margin-top : 300px;
+        margin: auto;
+        width : 40%;
+        border : 1px solid hsla(0, 0%, 98%, 0.4);
+        border-radius : 15px;
+        text-align : center;
+        padding : 30px 50px;
+        background-color : hsla(0, 0%, 70%, 0.1);
+        backdrop-filter : blur(5px);
+        overflow : auto;
+        animation-duration : 1s;
+        animation-name : grow;
+        animation-direction : reverse;
+        
+    }
+
+    #username{
+        margin : 10px;
+        border-radius : 15px;
+        height : 30px;
+        width : 350px;
+        text-align : center;
+        background-color : rgba(48, 47, 47, 0.7);
+        border : 2px solid hsla(0, 0%, 0%, 0.4);
+        color : hsl(0, 0%, 100%);
+    }
+
+    #password{
+        margin : 10px;
+        border-radius : 15px;
+        height : 30px;
+        width : 350px;
+        text-align : center;
+        background-color : rgba(48, 47, 47, 0.7);
+        border : 2px solid hsla(0, 0%, 0%, 0.4);
+        color : hsl(0, 0%, 100%);
+    }
+
+    #login{
+        height : 40px;
+        width : 120px;
+        border-radius : 15px;
+        margin : 30px;
+        padding : 10px 5px;
+        cursor : pointer;
+        background-color : black;
+        color : white;
+        
+
+    }
+
+    body{
+        background-image : url(project_stuff/warehouse_bg_image.jpg);
+        background-repeat : no-repeat;
+        background-size : cover;
+        background-attachment : fixed;
+        text-align :center;
+    }
+
+    #reset_pass{
+        text-decoration : none; 
+        color: black;
+    }
+    
+
+
+    #login:hover{
+        background-color : hsl(0, 0%, 20%);
+    }
+
+    #reset_pass:hover {
+        text-decoration : underline;
+    }
+
+
+    @keyframes grow{
+    100%{transform  : scale(1.2, 1.2)}
+}
+
+</style>
