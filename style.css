@@ -1,0 +1,171 @@
+
+#header{
+    height : 5vh ;
+    border : 1px solid hsla(0, 0%, 0%, 0.3);
+    border-radius : 10px;
+    margin-bottom : 5px;
+    padding : 10px;
+    background-color: hsla(216, 50%, 50%, 0.8);
+    backdrop-filter : blur(15px);
+    display : flex;
+    flex-wrap : space-evenly;
+    align-items : center;
+}
+
+body{
+    background-color : hsl(210, 100%, 96%);
+}
+
+#main_window{
+    display : flex;
+    justify-content : space;
+    flex-wrap :nowrap;
+}
+
+#sidebar{
+    height : 90vh;
+    width : 10vw;
+    border : 1px solid hsla(0, 0%, 0%, 0.3);
+    border-radius : 10px;
+    margin-top : 0px;
+    Display : inline-block;
+    background-color : hsla(216, 50%, 40%, 0.5);
+    backdrop-filter : blur(15px);
+    display : flex;
+    flex-direction : column;
+}
+
+#dashboard{
+    border : 1px solid hsla(0, 0%, 0%, 0.2);
+    margin : 8px;
+    margin-top : 20px;
+    padding : 5px;
+    border-radius : 10px;
+    text-align : center;
+    margin-bottom : 10px;
+    background-color : hsla(0, 0%, 100%, 0.1);
+    backdrop-filter : blur(15px);
+}
+
+#warehouses{
+    border : 1px solid hsla(0, 0%, 0%, 0.2);
+    margin : 8px;
+    padding : 5px;
+    border-radius : 10px;
+    text-align : center;
+    margin-bottom : 10px;
+    background-color : hsla(0, 0%, 100%, 0.1);
+    backdrop-filter : blur(15px);
+}
+
+#revenue{
+    border : 1px solid hsla(0, 0%, 0%, 0.2);
+    margin : 8px;
+    padding : 5px;
+    border-radius : 10px;
+    text-align : center;
+    margin-bottom : 10px;
+    background-color : hsla(0, 0%, 100%, 0.1);
+    backdrop-filter : blur(15px);
+}
+
+#analytics{
+    border : 1px solid hsla(0, 0%, 0%, 0.2);
+    margin : 8px;
+    padding : 5px;
+    border-radius : 10px;
+    text-align : center;
+    margin-bottom : 10px;
+    background-color : hsla(0, 0%, 100%, 0.1);
+    backdrop-filter : blur(15px);
+}
+
+#profile_container{
+    margin-top : auto;
+    border : 1px solid hsla(0, 0%, 40%, 0.1);
+    backdrop-filter : blur(15px);
+    border-radius : 10px;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-bottom : 5px;
+}
+#profile_icon{
+    font-size : 25px;
+    color : hsl(216, 50%, 15%);
+    display : inline-block;
+    margin-left : 5px;
+}
+
+#dashboard:hover{
+    cursor : pointer;
+    transform : scale(1.05, 1.05);
+    transition-duration : 0.1s;
+    transition-timing-function : normal;
+}
+#revenue:hover{
+    transform : scale(1.05, 1.05);
+    transition-duration : 0.1s;
+    transition-timing-function : linear;
+    cursor : pointer;
+}
+#warehouses:hover{
+    transform : scale(1.05, 1.05);
+    transition-duration : 0.1s;
+    transition-timing-function : linear;
+    cursor : pointer;
+}
+#analytics:hover{
+    transform : scale(1.05, 1.05);
+    transition-duration : 0.1s;
+    transition-timing-function : linear;
+    cursor : pointer;
+}
+
+
+#main_menu{
+    height : 90vh;
+    width : 90vw;
+    margin-left : 5px;
+    border : 1px solid hsla(0, 0%, 0%, 0.3);
+    backdrop-filter : blur(15px);
+    border-radius : 10px;
+    display : flex;
+    align-items : center;
+    background-color : hsla(216, 100%, 90%, 0.5);
+
+}
+#create_warehouse{
+    height : auto;
+    width :auto;
+    margin : auto;
+    text-align : center;
+}
+
+#warehouse_icon {
+    font-size : 150px;
+    margin : 0px;
+    margin-bottom : 5px;
+    color : hsl(216, 50%, 40%);
+}
+a{
+    text-decoration : none;
+    color : black;
+    font-size : 17px;
+}
+
+
+
+@keyframes grow{
+    100%{transform  : scale(1.5, 1.5)}
+}
+
+#warehouse_icon:hover{
+    color :hsl(216, 50%, 20%);
+}
+#create_warehouse:hover{
+    transform : scale(1.05, 1.05);
+    transition-duration : 0.1s;
+    transition-timing-function : normal;
+}
+
+
