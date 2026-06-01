@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Warehouse Manager</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/9d92530687.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <div id="header">
+        <h1> Welcome to Warehouse Manager </h1>
+    </div>
+
+    <body>
+        <div id="main_window">
+            <div id="sidebar">
+                <h2 style="margin-bottom : 0px; margin-left : 5px; margin-top : 10px;">Warehouse</h2>
+                <h4 style="margin-top : 0px; margin-left : 10px; margin-bottom : 10px; ">manager</h4>
+                <hr style="width : 100%;">
+                <a href="#"><div class="sidebar_content" id="dashboard" style="background-color : hsla(0, 0%, 100%, 0.5);">Dashboard</div></a>
+                <a href="#"><div class="sidebar_content" id="warehouses">Warehouses</div></a>
+                <a href="#"><div class="sidebar_content" id="revenue">Revenue</div></a>
+                <a href="#"><div class="sidebar_content" id="analytics">Analytics</div></a>
+                <div id="profile_container"> 
+                    <i id="profile_icon" class="fa-solid fa-user"></i>
+                    <p style="display : inline-block;">Username</p>
+                    <p style="margin : 10px; margin-top : 0px;">LOC : Banglore</p>
+                </div>
+            </div>
+
+            <div id="dashboard_window">
+                <h3 style="margin : 10px; margin-bottom : 0px;">Warehouses : </h3>
+                <div id="warehouse_box">
+                    <div id="old_warehouse"><a href="#" ><i class="fa-solid fa-warehouse" id="warehouse_icon"></i><br>Warehouse_Name</a></div>
+                    <div id="new_warehouse"><a href="#" ><i class="fa-solid fa-plus" id="add_warehouse"></i><br>Add New Warehouse</a></div>
+                </div>
+
+                <h3 style="margin : 10px; margin-bottom : 0px;">Revenue : </h3>
+                <div id="revenue_box">
+                    <img src="project_stuff/warehouse_bg_image.jpg" height="1000px" width="500px">
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
